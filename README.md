@@ -1,4 +1,4 @@
-# Collaborated with Arty Baker in creating this ReadME file
+
 
 # rock-paper-scissors-game
     A python application used for you to play a game of rock, paper, scissors against the computer. 
@@ -30,3 +30,5 @@ In the root directory of your local repository create a new file called ".env" a
 Run the python script on your local terminal 
 
     python game.py
+ 
+# Collaborated with Arty Baker in creating this ReadME file
