@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 PLAYER_NAME = os.getenv("PLAYER_NAME", default="Player One")
+print ("------------------------------------")
 print("Welcome", PLAYER_NAME, "to my Rock-Paper-Scissors game...")
 
 # game.py
@@ -12,6 +13,7 @@ print("Welcome", PLAYER_NAME, "to my Rock-Paper-Scissors game...")
 import random
 
 print("Rock, Paper, Scissors, Shoot!")
+print ("------------------------------------")
 
 # prompt for user input
 
@@ -53,6 +55,7 @@ elif user_choice == "paper":
     else:
         print("Scissors cuts paper, sorry you lost")
 
-
+print ("------------------------------------")
+print ("Thanks for playing, please play again!")
 
 
